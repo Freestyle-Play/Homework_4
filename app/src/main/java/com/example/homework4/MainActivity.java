@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 //        System.out.println("Most rare digit: " + findMostRareDigit(counts));
 //        System.out.println("Sorted digits array: " + Arrays.toString(sortDigitsArray(digitsArray)));
         TextView output = findViewById(R.id.output);
-        output.setText("Number of 3s: " + counts[3]+
-                "\nNumber of 5s: " + counts[5] +
+        output.setText("Number of 3: " + counts[3]+
+                "\nNumber of 5: " + counts[5] +
                 "\nMost rare digit: " + findMostRareDigit(counts)+
                 "\nSorted digits array: " + Arrays.toString(sortDigitsArray(digitsArray)));
 
